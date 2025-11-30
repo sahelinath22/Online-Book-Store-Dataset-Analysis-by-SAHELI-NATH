@@ -1,11 +1,7 @@
 
-Project Title
+# 📚 Online Book Store Data Analysis (PostgreSQL)
 
-
-📚 Online Book Store Data Analysis (PostgreSQL)
-
-
-📌 Project Overview
+📌 **Project Overview**
 
 This project focuses on performing data analysis for an Online Book Store using PostgreSQL.
 
@@ -13,87 +9,57 @@ The objective of this project is to extract meaningful business insights about b
 
 This assignment demonstrates practical SQL skills, such as table creation, data retrieval, filtering, aggregation, joining, and revenue analysis for a retail dataset.
 
-
-
-🧩 Dataset Structure
+🧩 **Dataset Structure**
 
 The project uses three interrelated datasets stored in PostgreSQL tables:
 
-Table Name	Description
+**Table Name Description**
 
-Books	Contains information about all available books such as title, author, genre, price, stock, etc.
+Books Contains information about all available books such as title, author, genre, price, stock, etc.
 
-Customers	Contains customer details like name, contact info, and location.
+Customers Contains customer details like name, contact info, and location.
 
-Orders	Records customer orders with details like order date, quantity, and total amount.
+Orders Records customer orders with details like order date, quantity, and total amount.
 
-Books Table
+**1. Books Table**
 
-Column	Description
-Book_ID	Unique ID for each book
-Title	Title of the book
-Author	Name of the author
-Genre	Category/genre of the book
-Published_Year	Year when the book was published
-Price	Selling price of the book
-Stock	Available stock quantity
+Column Description Book_ID Unique ID for each book Title Title of the book Author Name of the author Genre Category/genre of the book Published_Year Year when the book was published Price Selling price of the book Stock Available stock quantity
 
+**2. Customers Table**
 
-Customers Table
+Column Description Customer_ID Unique ID for each customer Name Customer’s full name Email Customer’s email address Phone Contact number City Customer’s city Country Customer’s country
 
-Column	Description
-Customer_ID	Unique ID for each customer
-Name	Customer’s full name
-Email	Customer’s email address
-Phone	Contact number
-City	Customer’s city
-Country	Customer’s country
+**3. Orders Table**
 
+Column Description Order_ID Unique order identifier Customer_ID Foreign key referencing Customers table Book_ID Foreign key referencing Books table Order_Date Date of the order Quantity Number of books ordered Total_Amount Total order value
 
-Orders Table
+🧠 **Objectives:**
 
-Column	Description
-Order_ID	Unique order identifier
-Customer_ID	Foreign key referencing Customers table
-Book_ID	Foreign key referencing Books table
-Order_Date	Date of the order
-Quantity	Number of books ordered
-Total_Amount	Total order value
+1. Create and manage a relational database for an Online Book Store.
 
+2. Analyze key metrics such as revenue, sales, and customer behavior.
 
-🧠 Objectives
+3. Use SQL joins, aggregate functions, subqueries, and grouping to generate insights.
 
-1) Create and manage a relational database for an Online Book Store.
+4. Apply data exploration techniques for different analytical perspectives.
 
-2) Analyze key metrics such as revenue, sales, and customer behavior.
-
-3) Use SQL joins, aggregate functions, subqueries, and grouping to generate insights.
-
-4) Apply data exploration techniques for different analytical perspectives.
-
-
-
-🧾 SQL File Description
-
+🧾 **SQL File Description**
 
 File Name: ONLINE BOOK STORE DATA ANALYSIS BY SAHELI NATH.sql
 
 This file includes:
 
-Database and Table Creation – Defining schema for Books, Customers, and Orders.
+1. Database and Table Creation – Defining schema for Books, Customers, and Orders.
 
-Data Retrieval Queries – Using SELECT, WHERE, and DISTINCT for data exploration.
+2. Data Retrieval Queries – Using SELECT, WHERE, and DISTINCT for data exploration.
 
-Aggregate Functions – Using SUM(), AVG(), COUNT(), and ORDER BY for analytics.
+3. Aggregate Functions – Using SUM(), AVG(), COUNT(), and ORDER BY for analytics.
 
-Join Operations – Combining tables to correlate books, customers, and orders.
+4. Join Operations – Combining tables to correlate books, customers, and orders.
 
-Business Analysis Queries – Advanced insights like best-selling books, customer segmentation, and revenue tracking.
+5. Business Analysis Queries – Advanced insights like best-selling books, customer segmentation, and revenue tracking.
 
-
-
-📊 Key Insights Derived
-
+📊 **Key Insights Derived**
 
 ✅Total stock of all available books in the store.
 
@@ -111,10 +77,7 @@ Business Analysis Queries – Advanced insights like best-selling books, custome
 
 ✅Remaining stock after fulfilling all orders.
 
-
-
-🧰 Tools & Technologies Used
-
+🧰 **Tools & Technologies Used**
 
 👉🏻PostgreSQL – For database creation and analysis
 
@@ -124,21 +87,11 @@ Business Analysis Queries – Advanced insights like best-selling books, custome
 
 👉🏻pgAdmin – For executing SQL scripts and visualizing outputs
 
+📁 **Repository Structure**
 
+├── ONLINE BOOK STORE DATA ANALYSIS BY SAHELI NATH.sql ├── Books.xlsx ├── Customers.xlsx ├── Orders.xlsx ├── Online_Book_Store_Assignment.png └── README.md
 
-📁 Repository Structure
-
-├── ONLINE BOOK STORE DATA ANALYSIS BY SAHELI NATH.sql
-├── Books.xlsx
-├── Customers.xlsx
-├── Orders.xlsx
-├── Online_Book_Store_Assignment.png
-└── README.md
-
-
-
-🚀 How to Run the Project
-
+🚀 **How to Run the Project**
 
 💠Install PostgreSQL and open pgAdmin or any SQL editor.
 
@@ -150,10 +103,7 @@ Business Analysis Queries – Advanced insights like best-selling books, custome
 
 💠Execute the queries sequentially to explore insights and outputs.
 
-
-
-🧩 Learning Outcomes
-
+🧩 **Learning Outcomes**
 
 1️⃣Understanding of relational database design and relationships.
 
@@ -163,24 +113,21 @@ Business Analysis Queries – Advanced insights like best-selling books, custome
 
 4️⃣Improved knowledge of aggregate, join, and grouping functions in PostgreSQL.
 
-
-
-👨‍💻 Author
+👨‍💻 **Author**
 
 Saheli Nath
 
 📘 Aspiring Data Analyst
 
-linkedin: https://www.linkedin.com/in/saheli-nath28/
-email: nathsaheli1999@gmail.com
+**Linkedin:** https://www.linkedin.com/in/saheli-nath28/ 
 
-🧭 Guided by Satish Dhawale Sir, Founder of Skill Course
+**Email:** nathsaheli1999@gmail.com
 
+🧭 Guided by **Satish Dhawale** Sir, Founder of **Skill Course**
 
+⭐ **Acknowledgment**
 
-⭐ Acknowledgment
-
-Special thanks to Satish Dhawale Sir for providing this assignment and guidance throughout the project.
+Special thanks to **Satish Dhawale** Sir for providing this assignment and guidance throughout the project.
 
 
 
